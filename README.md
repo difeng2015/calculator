@@ -62,7 +62,7 @@ Immediately after the build is done, the job will run the JUnit test cases. In t
 
 1.5 hours for writing the core code that can correctly output evaluation result for a valid expression.
 
-1.5 hours for writing custom exceptions, adding logging code, setting up "log4.properties" file, writing javadoc.
+2 hours for writing custom exceptions, setting up "log4.properties" file, adding logging code, writing javadoc.
 
 30 minutes for writing JUnit test cases.
 
