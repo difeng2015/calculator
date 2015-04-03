@@ -46,10 +46,6 @@ In this project, there are 3 levels of logging: DEBUG, INFO, ERROR. It's easy to
 
 On the other hand, ERROR level logging exists mainly in order to provide detailed error information and at the same time give the program a chance to restore from an error and continue to execute. However, for this calculator program, if an error happened, it means the expression input is invalid, and the program will not be able to give a correct answer whatsoever. So there is no way to "restore" from the error. Therefore, it's reasonable to throw an exception whenever the input is found invalid to end the program, and put the ERROR level logging within a try/catch clause in the main method just to show the user a message why the input is invalid, so that the user can examine his input.
 
-## What Could Be Further Improved
-
-When there is an undefined variable encountered in the expression, the logger will tell the user the name of the undefined variable, and the user can examine the expression based on this. The logging code can be improved to further points out the undefined variable's position in the expression, so that it's faster for the user to pinpoint the problem and make corrections.
-
 ## Jenkins Integration
 
 A Jenkins server and a job called "calculator" are set up for this repository. Please visit it here: http://ec2-52-0-244-198.compute-1.amazonaws.com:8080
@@ -57,6 +53,10 @@ A Jenkins server and a job called "calculator" are set up for this repository. P
 Whenever a new commit is made to this repository, GitHub will trigger the Jenkins job "calculator" to pull from this repository and automatically produce a build on the server using Maven configuration for the Java project.
 
 Immediately after the build is done, the job will run the JUnit test cases. In the job's page (http://ec2-52-0-244-198.compute-1.amazonaws.com:8080/job/calculator), you can see the Build History, Test Result Trend, and details about a test if you want.
+
+## What Could Be Further Improved
+
+When there is an undefined variable encountered in the expression, the logger will tell the user the name of the undefined variable, and the user can examine the expression based on this. The logging code can be improved to further points out the undefined variable's position in the expression, so that it's faster for the user to pinpoint the problem and make corrections.
 
 ## Time Spent on Different Parts of the Project
 
