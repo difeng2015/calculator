@@ -50,6 +50,14 @@ On the other hand, ERROR level logging exists mainly in order to provide detaile
 
 When there is an undefined variable encountered in the expression, the logger will tell the user the name of the undefined variable, and the user can examine the expression based on this. The logging code can be improved to further points out the undefined variable's position in the expression, so that it's faster for the user to pinpoint the problem and make corrections.
 
+## Jenkins Integration
+
+A Jenkins server and a job called "calculator" are set up for this repository. Please visit it here: http://ec2-52-0-244-198.compute-1.amazonaws.com:8080
+
+Whenever a new commit is made to this repository, GitHub will trigger the Jenkins job "calculator" to pull from this repository and automatically produce a build on the server using Maven configuration for the Java project.
+
+Immediately after the build is done, the job will run the JUnit test cases. In the job's page (http://ec2-52-0-244-198.compute-1.amazonaws.com:8080/job/calculator), you can see the Build History, Test Result Trend, and details about a test if you want.
+
 ## Time Spent on Different Parts of the Project
 
 1.5 hours for writing the core code that can correctly output evaluation result for a valid expression.
@@ -58,4 +66,4 @@ When there is an undefined variable encountered in the expression, the logger wi
 
 30 minutes for writing JUnit test cases.
 
-1.5 hours for configuring AWS EC2 server and setting up Maven, Git and Jenkins.
+1 hours for configuring AWS EC2 server and setting up Maven, Git and Jenkins.
