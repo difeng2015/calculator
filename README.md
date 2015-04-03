@@ -52,8 +52,10 @@ When there is an undefined variable encountered in the expression, the logger wi
 
 ## Time Spent on Different Parts of the Project
 
-1.5 hours for writing the core code to correctly calculate a valid expression.
+1.5 hours for writing the core code that can correctly output evaluation result for a valid expression.
 
 2 hours for writing custom exceptions, adding logging code, setting up "log4.properties" file, writing javadoc.
 
 30 minutes for writing JUnit test cases.
+
+1.5 hours for configuring AWS EC2 server and setting up Maven, Git and Jenkins.
