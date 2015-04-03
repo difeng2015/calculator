@@ -1,0 +1,27 @@
+2015-04-03 08:37:17 INFO  Main:27 - Main.main()
+2015-04-03 08:37:17 DEBUG Main:31 - expression: let(a, 3, div(996, a))
+2015-04-03 08:37:17 INFO  Parser:113 - Arithmetic.parenthesisPairsValid()
+2015-04-03 08:37:17 INFO  Arithmetic:42 - Arithmetic.evaluate()
+2015-04-03 08:37:17 DEBUG Arithmetic:43 - expression: let(a, 3, div(996, a))
+2015-04-03 08:37:17 INFO  Parser:29 - getAction()
+2015-04-03 08:37:17 DEBUG Parser:30 - expression: let(a, 3, div(996, a))
+2015-04-03 08:37:17 INFO  Parser:50 - getAction()
+2015-04-03 08:37:17 DEBUG Parser:51 - expression: let(a, 3, div(996, a))  operand #1
+2015-04-03 08:37:17 INFO  Parser:50 - getAction()
+2015-04-03 08:37:17 DEBUG Parser:51 - expression: let(a, 3, div(996, a))  operand #2
+2015-04-03 08:37:17 INFO  Arithmetic:42 - Arithmetic.evaluate()
+2015-04-03 08:37:17 DEBUG Arithmetic:43 - expression: 3
+2015-04-03 08:37:17 INFO  Parser:50 - getAction()
+2015-04-03 08:37:17 DEBUG Parser:51 - expression: let(a, 3, div(996, a))  operand #3
+2015-04-03 08:37:17 INFO  Arithmetic:42 - Arithmetic.evaluate()
+2015-04-03 08:37:17 DEBUG Arithmetic:43 - expression: div(996, a)
+2015-04-03 08:37:17 INFO  Parser:29 - getAction()
+2015-04-03 08:37:17 DEBUG Parser:30 - expression: div(996, a)
+2015-04-03 08:37:17 INFO  Parser:50 - getAction()
+2015-04-03 08:37:17 DEBUG Parser:51 - expression: div(996, a)  operand #1
+2015-04-03 08:37:17 INFO  Parser:50 - getAction()
+2015-04-03 08:37:17 DEBUG Parser:51 - expression: div(996, a)  operand #2
+2015-04-03 08:37:17 INFO  Arithmetic:42 - Arithmetic.evaluate()
+2015-04-03 08:37:17 DEBUG Arithmetic:43 - expression: 996
+2015-04-03 08:37:17 INFO  Arithmetic:42 - Arithmetic.evaluate()
+2015-04-03 08:37:17 DEBUG Arithmetic:43 - expression: a
