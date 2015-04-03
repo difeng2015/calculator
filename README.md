@@ -66,4 +66,4 @@ Immediately after the build is done, the job will run the JUnit test cases. In t
 
 30 minutes for writing JUnit test cases.
 
-1 hour for configuring AWS EC2 server and setting up Maven, Git and Jenkins. 
+1 hour for configuring AWS EC2 server and setting up Maven, Git and Jenkins.
