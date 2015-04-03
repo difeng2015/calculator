@@ -75,7 +75,7 @@ public class Arithmetic {
         ret = evaluate(op1, varsMap) / evaluate(op2, varsMap);
       }
     }
-    if(action.equals("let")) {
+    if(action.equals("let")) { 
       if(varsMap == null) {
         varsMap = new HashMap<String, Integer>();
       }
