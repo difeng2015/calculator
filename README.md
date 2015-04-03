@@ -66,4 +66,4 @@ When there is an undefined variable encountered in the expression, the logger wi
 
 30 minutes for writing JUnit test cases.
 
-1 hour for configuring AWS EC2 server and setting up Maven, Git and Jenkins.
+1 hour for configuring AWS EC2 server and setting up Maven, Git and Jenkins on it.
